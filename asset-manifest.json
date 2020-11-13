@@ -5,17 +5,17 @@
     "main.js.map": "./ yarn build/static/js/main.6d79c9a3.chunk.js.map",
     "runtime-main.js": "./ yarn build/static/js/runtime-main.5a385996.js",
     "runtime-main.js.map": "./ yarn build/static/js/runtime-main.5a385996.js.map",
-    "static/css/2.fa8c04e6.chunk.css": "./ yarn build/static/css/2.fa8c04e6.chunk.css",
+    "static/css/2.fa24262a.chunk.css": "./ yarn build/static/css/2.fa24262a.chunk.css",
     "static/js/2.927ed5f7.chunk.js": "./ yarn build/static/js/2.927ed5f7.chunk.js",
     "static/js/2.927ed5f7.chunk.js.map": "./ yarn build/static/js/2.927ed5f7.chunk.js.map",
     "index.html": "./ yarn build/index.html",
-    "static/css/2.fa8c04e6.chunk.css.map": "./ yarn build/static/css/2.fa8c04e6.chunk.css.map",
+    "static/css/2.fa24262a.chunk.css.map": "./ yarn build/static/css/2.fa24262a.chunk.css.map",
     "static/css/main.50aa371a.chunk.css.map": "./ yarn build/static/css/main.50aa371a.chunk.css.map",
     "static/js/2.927ed5f7.chunk.js.LICENSE.txt": "./ yarn build/static/js/2.927ed5f7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5a385996.js",
-    "static/css/2.fa8c04e6.chunk.css",
+    "static/css/2.fa24262a.chunk.css",
     "static/js/2.927ed5f7.chunk.js",
     "static/css/main.50aa371a.chunk.css",
     "static/js/main.6d79c9a3.chunk.js"
