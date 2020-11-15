@@ -12,7 +12,7 @@ export const Nav20DataSource = {
     children: [
       {
         name: 'linkNav',
-        to: 'Feature5_0',
+        to: 'Content9_0',
         children: 'Digital World',
         className: 'menu-item',
       },
@@ -24,13 +24,13 @@ export const Nav20DataSource = {
       },
       {
         name: 'linkNav~khgdi3ykehr',
-        to: 'Feature4_0',
+        to: 'Banner5_0',
         children: 'Advantages',
         className: 'menu-item',
       },
       {
         name: 'linkNav~khgdib76g4',
-        to: 'Feature6_0',
+        to: 'Banner4_0',
         children: 'DOI',
         className: 'menu-item',
       },
@@ -47,14 +47,21 @@ export const Banner00DataSource = {
   },
   content: {
     className: 'banner0-content',
-    children: '一个高效的页面动画解决方案',
+    children: (
+      <span>
+        <p>
+          <br />
+        </p>
+      </span>
+    ),
   },
   button: { className: 'banner0-button', children: 'Learn More' },
 };
-export const Feature50DataSource = {
-  wrapper: { className: 'home-page-wrapper content7-wrapper' },
-  page: { className: 'home-page content7' },
-  OverPack: {},
+export const Content90DataSource = {
+  wrapper: {
+    className: 'home-page-wrapper content9-wrapper khim3kn3cpj-editor_css',
+  },
+  page: { className: 'home-page content9' },
   titleWrapper: {
     className: 'title-wrapper',
     children: [
@@ -62,174 +69,264 @@ export const Feature50DataSource = {
         name: 'title',
         children: (
           <span>
-            <span>
-              <p>Digital World</p>
-            </span>
+            <p>Digital World</p>
           </span>
         ),
         className: 'title-h1',
       },
       {
-        name: 'content',
+        name: 'title~khilr3h2srm',
+        className: 'khilrheeu8r-editor_css',
         children: (
           <span>
-            <span>
-              <p>
-                "When change is constant&nbsp;<span>
-                  Prepare for the unpredictable”
-                </span>
-              </p>
-            </span>
+            <p>"When change is constant Prepare for the unpredictable”</p>
           </span>
         ),
       },
     ],
   },
-  tabsWrapper: { className: 'content7-tabs-wrapper' },
   block: {
+    className: 'timeline',
     children: [
       {
-        name: 'block0',
-        tag: {
-          className: 'content7-tag',
-          text: {
-            children: (
-              <span>
-                <p>Web 3.0</p>
-              </span>
-            ),
-            className: 'content7-tag-name',
-          },
-          icon: { children: 'mobile' },
-        },
-        content: {
-          className: 'content7-content',
-          text: {
-            className: 'content7-text',
-            md: 14,
-            xs: 24,
-            children: (
-              <span>
-                <h3>技术</h3>
-                <p>
-                  丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。
-                </p>
-                <br />
-                <h3>融合</h3>
-                <p>
-                  解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
-                </p>
-                <br />
-                <h3>
-                  开放
-                </h3>符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
-              </span>
-            ),
-          },
-          img: {
-            className: 'content7-img',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png',
-            md: 10,
-            xs: 24,
-          },
-        },
-      },
-      {
         name: 'block1',
-        tag: {
-          className: 'content7-tag',
-          icon: { children: 'tablet' },
-          text: {
-            className: 'content7-tag-name',
-            children: (
-              <span>
-                <p>Web 2.0</p>
-              </span>
-            ),
-          },
-        },
-        content: {
-          className: 'content7-content',
-          text: {
-            className: 'content7-text',
-            md: 14,
-            xs: 24,
-            children: (
-              <span>
-                <h3>技术</h3>
-                <p>
-                  丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。
-                </p>
-                <br />
-                <h3>融合</h3>
-                <p>
-                  解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
-                </p>
-                <br />
-                <h3>
-                  开放
-                </h3>符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
-              </span>
-            ),
-          },
+        className: 'block-wrapper',
+        playScale: 0.3,
+        children: {
+          imgWrapper: { className: 'image-wrapper' },
+          textWrapper: { className: 'text-wrapper' },
           img: {
-            className: 'content7-img',
-            md: 10,
-            xs: 24,
+            className: 'block-img',
             children:
-              'https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png',
+              'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3680245471,3520543700&fm=11&gp=0.jpg',
+          },
+          icon: {
+            className: 'block-icon',
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/QviGtUPvTFxdhsTUAacr.svg',
+          },
+          name: {
+            className: 'block-name khimjsn84xi-editor_css',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <p>Web 1.0</p>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            ),
+          },
+          post: {
+            className: 'block-post',
+            children: (
+              <span>
+                <p>
+                  <br />
+                </p>
+              </span>
+            ),
+          },
+          time: {
+            className: 'block-time',
+            children: (
+              <span>
+                <p>
+                  <br />
+                </p>
+              </span>
+            ),
+          },
+          title: {
+            className: 'block-title khim2scwjg7-editor_css',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <p>Connect</p>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            ),
+          },
+          content: {
+            className: 'block-content khim4ybp249-editor_css',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>
+                          <span>Change the way people connect&nbsp;</span>
+                          <br />
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            ),
           },
         },
       },
       {
         name: 'block2',
-        tag: {
-          className: 'content7-tag',
-          text: {
+        className: 'block-wrapper',
+        playScale: 0.3,
+        children: {
+          imgWrapper: { className: 'image-wrapper' },
+          textWrapper: { className: 'text-wrapper' },
+          img: {
+            className: 'block-img',
+            children:
+              'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1387143866,2420531530&fm=26&gp=0.jpg',
+          },
+          icon: {
+            className: 'block-icon',
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/qJnGrvjXPxdKETlVSrbe.svg',
+          },
+          name: {
+            className: 'block-name khimoi2gtn-editor_css',
             children: (
               <span>
                 <span>
-                  <p>
-                    Web 1<span>.0</span>
-                  </p>
+                  <p>Web 2.0</p>
                 </span>
               </span>
             ),
-            className: 'content7-tag-name',
           },
-          icon: { children: 'laptop' },
-        },
-        content: {
-          className: 'content7-content',
-          text: {
-            className: 'content7-text',
-            md: 14,
-            xs: 24,
+          post: {
+            className: 'block-post',
             children: (
               <span>
-                <h3>技术</h3>
                 <p>
-                  丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。
+                  <br />
                 </p>
-                <br />
-                <h3>融合</h3>
-                <p>
-                  解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
-                </p>
-                <br />
-                <h3>
-                  开放
-                </h3>符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
               </span>
             ),
           },
+          time: {
+            className: 'block-time',
+            children: (
+              <span>
+                <p>
+                  <br />
+                </p>
+              </span>
+            ),
+          },
+          title: {
+            className: 'block-title khimbxcemmf-editor_css',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>Interactive</p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            ),
+          },
+          content: {
+            className: 'block-content khimc3pm60r-editor_css',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>
+                          <span>Change the way people live</span>
+                          <br />
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block3',
+        className: 'block-wrapper',
+        playScale: 0.3,
+        children: {
+          imgWrapper: { className: 'image-wrapper' },
+          textWrapper: { className: 'text-wrapper' },
           img: {
-            className: 'content7-img',
-            md: 10,
-            xs: 24,
+            className: 'block-img',
             children:
-              'https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png',
+              'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605425437992&di=74c57299887db9f9ed3db012bd706486&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20160921%2F1b2ca92404744c7ba486508a0e1e9a8b_th.jpeg',
+          },
+          icon: {
+            className: 'block-icon',
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/agOOBdKEIJlQhfeYhHJc.svg',
+          },
+          name: {
+            className: 'block-name khimomz12d-editor_css',
+            children: (
+              <span>
+                <p>Web 3.0</p>
+              </span>
+            ),
+          },
+          post: {
+            className: 'block-post',
+            children: (
+              <span>
+                <p>
+                  <br />
+                </p>
+              </span>
+            ),
+          },
+          time: {
+            className: 'block-time',
+            children: (
+              <span>
+                <p>
+                  <br />
+                </p>
+              </span>
+            ),
+          },
+          title: {
+            className: 'block-title khimi3k3zjk-editor_css',
+            children: (
+              <span>
+                <span>
+                  <p>Trust</p>
+                </span>
+              </span>
+            ),
+          },
+          content: {
+            className: 'block-content khimi8gwr3h-editor_css',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <p>
+                      <span>Change the world</span>
+                      <br />
+                    </p>
+                  </span>
+                </span>
+              </span>
+            ),
           },
         },
       },
@@ -275,185 +372,368 @@ export const Content40DataSource = {
     },
   },
 };
-export const Feature40DataSource = {
-  wrapper: { className: 'home-page-wrapper content6-wrapper' },
-  OverPack: { className: 'home-page content6' },
-  textWrapper: { className: 'content6-text', xs: 24, md: 10 },
+export const Banner50DataSource = {
+  wrapper: { className: 'home-page-wrapper banner5' },
+  page: { className: 'home-page banner5-page' },
+  childWrapper: {
+    className: 'banner5-title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+            <p>Advantages</p>
+          </span>
+        ),
+        className: 'banner5-title',
+      },
+      {
+        name: 'explain',
+        className: 'banner5-explain',
+        children: (
+          <span>
+            <span>
+              <p>
+                Open source code, all smart contract on chain, no server, no
+                data storage, no chance to perpetrate. Community governance, no
+                privilege.
+              </p>
+            </span>
+          </span>
+        ),
+      },
+    ],
+  },
+  image: {
+    className: 'banner5-image',
+    children:
+      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-wAhRYnWQscAAAAAAAAAAABkARQnAQ',
+  },
+};
+export const Banner40DataSource = {
+  wrapper: { className: 'home-page-wrapper banner4' },
+  page: { className: 'home-page banner4-page' },
+  childWrapper: {
+    className: 'banner4-title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+            <p>DOI Model</p>
+          </span>
+        ),
+        className: 'banner4-title',
+      },
+      {
+        name: 'content',
+        className: 'banner4-content',
+        children: (
+          <span>
+            <p>DOI Model</p>
+          </span>
+        ),
+      },
+    ],
+  },
+  image: {
+    className: 'banner4-image khinlfbgbl-editor_css',
+    children:
+      'https://gw.alipayobjects.com/mdn/rms/afts/img/A*k3InRLiZDk4AAAAAAAAAAABjARQnAQ',
+  },
+};
+export const Teams20DataSource = {
+  wrapper: { className: 'home-page-wrapper teams2-wrapper' },
+  page: { className: 'home-page teams2' },
+  OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
     className: 'title-wrapper',
     children: [
       {
         name: 'title',
-        children: '蚂蚁金融云提供专业的服务',
-        className: 'title-h1',
-      },
-      {
-        name: 'content',
-        className: 'title-content',
-        children: '基于阿里云计算强大的基础资源',
+        children: (
+          <span>
+            <p>Contributor</p>
+          </span>
+        ),
       },
     ],
   },
-  img: {
-    children: 'https://zos.alipayobjects.com/rmsportal/VHGOVdYyBwuyqCx.png',
-    className: 'content6-img',
-    xs: 24,
-    md: 14,
-  },
   block: {
+    className: 'block-wrapper',
+    gutter: 72,
     children: [
       {
         name: 'block0',
-        img: {
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
           children:
-            'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
-          className: 'content6-icon',
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
         },
-        title: { className: 'content6-title', children: '技术' },
-        content: {
-          className: 'content6-content',
-          children:
-            '丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。',
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <span>
+                    <p>DanDan Noodles</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <span>
+                    <p>Community contributors</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <span>
+                  <p>Community contributors</p>
+                </span>
+              ),
+            },
+          ],
         },
       },
       {
         name: 'block1',
-        img: {
-          className: 'content6-icon',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
           children:
-            'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
         },
-        title: { className: 'content6-title', children: '融合' },
-        content: {
-          className: 'content6-content',
-          children:
-            '解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。',
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>DanDan Noodles</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p>Community contributors</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <span>
+                  <p>Community contributors</p>
+                </span>
+              ),
+            },
+          ],
         },
       },
       {
         name: 'block2',
-        img: {
-          className: 'content6-icon',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
           children:
-            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
         },
-        title: { className: 'content6-title', children: '开发' },
-        content: {
-          className: 'content6-content',
-          children:
-            '符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。',
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>DanDan Noodles</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p>Community contributors</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <span>
+                  <p>Community contributors</p>
+                </span>
+              ),
+            },
+          ],
         },
-      },
-    ],
-  },
-};
-export const Feature60DataSource = {
-  wrapper: { className: 'home-page-wrapper feature6-wrapper' },
-  OverPack: { className: 'home-page feature6', playScale: 0.3 },
-  Carousel: {
-    className: 'feature6-content',
-    dots: false,
-    wrapper: { className: 'feature6-content-wrapper' },
-    titleWrapper: {
-      className: 'feature6-title-wrapper',
-      barWrapper: {
-        className: 'feature6-title-bar-wrapper',
-        children: { className: 'feature6-title-bar' },
-      },
-      title: { className: 'feature6-title' },
-    },
-    children: [
-      {
-        title: { className: 'feature6-title-text', children: '服务指标' },
-        className: 'feature6-item',
-        name: 'block0',
-        children: [
-          {
-            md: 8,
-            xs: 24,
-            className: 'feature6-number-wrapper',
-            name: 'child0',
-            number: {
-              className: 'feature6-number',
-              unit: { className: 'feature6-unit', children: '万' },
-              toText: true,
-              children: '116',
-            },
-            children: { className: 'feature6-text', children: '模型数据' },
-          },
-          {
-            md: 8,
-            xs: 24,
-            className: 'feature6-number-wrapper',
-            name: 'child1',
-            number: {
-              className: 'feature6-number',
-              unit: { className: 'feature6-unit', children: '亿' },
-              toText: true,
-              children: '1.17',
-            },
-            children: { className: 'feature6-text', children: '模型迭代数量' },
-          },
-          {
-            md: 8,
-            xs: 24,
-            className: 'feature6-number-wrapper',
-            name: 'child2',
-            number: {
-              className: 'feature6-number',
-              unit: { className: 'feature6-unit', children: '亿' },
-              toText: true,
-              children: '2.10',
-            },
-            children: { className: 'feature6-text', children: '训练样本数量' },
-          },
-        ],
       },
       {
-        title: { className: 'feature6-title-text', children: '服务指标' },
-        className: 'feature6-item',
-        name: 'block1',
-        children: [
-          {
-            md: 8,
-            xs: 24,
-            name: 'child0',
-            className: 'feature6-number-wrapper',
-            number: {
-              className: 'feature6-number',
-              unit: { className: 'feature6-unit', children: '万' },
-              toText: true,
-              children: '116',
+        name: 'block3',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>DanDan Noodles</p>
+                </span>
+              ),
             },
-            children: { className: 'feature6-text', children: '模型数据' },
-          },
-          {
-            md: 8,
-            xs: 24,
-            name: 'child1',
-            className: 'feature6-number-wrapper',
-            number: {
-              className: 'feature6-number',
-              unit: { className: 'feature6-unit', children: '亿' },
-              toText: true,
-              children: '1.17',
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p>Community contributors</p>
+                </span>
+              ),
             },
-            children: { className: 'feature6-text', children: '模型迭代数量' },
-          },
-          {
-            md: 8,
-            xs: 24,
-            name: 'child2',
-            className: 'feature6-number-wrapper',
-            number: {
-              className: 'feature6-number',
-              unit: { className: 'feature6-unit', children: '亿' },
-              toText: true,
-              children: '2.10',
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <span>
+                  <p>Community contributors</p>
+                </span>
+              ),
             },
-            children: { className: 'feature6-text', children: '训练样本数量' },
-          },
-        ],
+          ],
+        },
+      },
+      {
+        name: 'block4',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>DanDan Noodles</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p>Community contributors</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <span>
+                  <p>Community contributors</p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block5',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        image: {
+          name: 'image',
+          className: 'teams2-image',
+          children:
+            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+        },
+        titleWrapper: {
+          className: 'teams2-textWrapper',
+          children: [
+            {
+              name: 'title',
+              className: 'teams2-title',
+              children: (
+                <span>
+                  <p>DanDan Noodles</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams2-job',
+              children: (
+                <span>
+                  <p>Community contributors</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams2-content',
+              children: (
+                <span>
+                  <p>Community contributors</p>
+                </span>
+              ),
+            },
+          ],
+        },
       },
     ],
   },
@@ -465,8 +745,7 @@ export const Footer00DataSource = {
     className: 'copyright',
     children: (
       <span>
-        ©2018 <a href="https://motion.ant.design">Ant Motion</a> All Rights
-        Reserved
+        <span>©2020 Daoswap Golbal All Rights Reserved</span>
       </span>
     ),
   },

@@ -5,19 +5,21 @@ import { enquireScreen } from 'enquire-js';
 
 import Nav2 from './Nav2';
 import Banner0 from './Banner0';
-import Feature5 from './Feature5';
+import Content9 from './Content9';
 import Content4 from './Content4';
-import Feature4 from './Feature4';
-import Feature6 from './Feature6';
+import Banner5 from './Banner5';
+import Banner4 from './Banner4';
+import Teams2 from './Teams2';
 import Footer0 from './Footer0';
 
 import {
   Nav20DataSource,
   Banner00DataSource,
-  Feature50DataSource,
+  Content90DataSource,
   Content40DataSource,
-  Feature40DataSource,
-  Feature60DataSource,
+  Banner50DataSource,
+  Banner40DataSource,
+  Teams20DataSource,
   Footer00DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
@@ -70,10 +72,10 @@ export default class Home extends React.Component {
         dataSource={Banner00DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature5
-        id="Feature5_0"
-        key="Feature5_0"
-        dataSource={Feature50DataSource}
+      <Content9
+        id="Content9_0"
+        key="Content9_0"
+        dataSource={Content90DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content4
@@ -82,16 +84,22 @@ export default class Home extends React.Component {
         dataSource={Content40DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature4
-        id="Feature4_0"
-        key="Feature4_0"
-        dataSource={Feature40DataSource}
+      <Banner5
+        id="Banner5_0"
+        key="Banner5_0"
+        dataSource={Banner50DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature6
-        id="Feature6_0"
-        key="Feature6_0"
-        dataSource={Feature60DataSource}
+      <Banner4
+        id="Banner4_0"
+        key="Banner4_0"
+        dataSource={Banner40DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Teams2
+        id="Teams2_0"
+        key="Teams2_0"
+        dataSource={Teams20DataSource}
         isMobile={this.state.isMobile}
       />,
       <Footer0
