@@ -5,7 +5,7 @@ export const Nav20DataSource = {
   page: { className: 'home-page khgdhfkyth-editor_css' },
   logo: {
     className: 'header2-logo',
-    children: 'https://www.daoswap.global/images/logo-title.jpg',
+    children: 'https://www.daoswap.global/images/logo-title.png',
   },
   LinkMenu: {
     className: 'header2-menu',
