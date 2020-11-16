@@ -576,11 +576,19 @@ export const Footer00DataSource = {
     children: (
       <span>
         <span>
-          <span>
-            <span>
-              <span>©2020&nbsp;</span>
-            </span>Daoswap Golbal Community
-          </span>
+          <div>
+            <span>Daoswap Golbal Community</span>
+            <br />
+          </div>
+          <p>
+            Follow{' '}
+            <a href="https://www.daoswap.global/LICENSE" target="_blank">
+              MIT
+            </a>{' '}
+            Protocol<span>
+              <br />
+            </span>
+          </p>
         </span>
       </span>
     ),
