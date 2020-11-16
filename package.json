@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "build": "react-app-rewired build && copy {CNAME,LICENSE} build || cp {CNAME,LICENSE} build",
     "test": "react-app-rewired test",
     "deploy": "gh-pages -d build"
   },
