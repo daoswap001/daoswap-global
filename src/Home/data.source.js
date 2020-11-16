@@ -20,7 +20,7 @@ export const Nav20DataSource = {
         name: 'linkNav~khgdhkqr3pu',
         to: 'Feature2_0',
         children: 'Daoswap',
-        className: 'menu-item',
+        className: 'menu-item khk7sri0ggb-editor_css',
       },
       {
         name: 'linkNav~khgdi3ykehr',
@@ -575,7 +575,13 @@ export const Footer00DataSource = {
     className: 'copyright khjx8mkgs6e-editor_css',
     children: (
       <span>
-        <span>©2020 Daoswap Golbal All Rights Reserved</span>
+        <span>
+          <span>
+            <span>
+              <span>©2020&nbsp;</span>
+            </span>Daoswap Golbal Community
+          </span>
+        </span>
       </span>
     ),
   },
