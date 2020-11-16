@@ -14,7 +14,7 @@ export const Nav20DataSource = {
         name: 'linkNav',
         to: 'Content9_0',
         children: 'Digital World',
-        className: 'menu-item',
+        className: 'menu-item khk3xo21hu-editor_css',
       },
       {
         name: 'linkNav~khgdhkqr3pu',
@@ -87,7 +87,7 @@ export const Content90DataSource = {
             <p>Digital World</p>
           </span>
         ),
-        className: 'title-h1',
+        className: 'title-h1 khk3rwisoo-editor_css',
       },
       {
         name: 'title~khilr3h2srm',
@@ -567,7 +567,9 @@ export const Feature40DataSource = {
   },
 };
 export const Footer00DataSource = {
-  wrapper: { className: 'home-page-wrapper footer0-wrapper' },
+  wrapper: {
+    className: 'home-page-wrapper footer0-wrapper khk3uxjsuzc-editor_css',
+  },
   OverPack: { className: 'home-page footer0', playScale: 0.05 },
   copyright: {
     className: 'copyright khjx8mkgs6e-editor_css',
