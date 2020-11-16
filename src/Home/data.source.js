@@ -350,12 +350,12 @@ export const Feature20DataSource = {
     className: 'home-page-wrapper content2-wrapper khj29oibjla-editor_css',
   },
   OverPack: { className: 'home-page content2', playScale: 0.3 },
-  imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
+  imgWrapper: { className: 'content2-img', md: 16, xs: 24 },
   img: {
     children: 'https://www.daoswap.global/images/how-daoswap-works.jpg',
     className: 'khj27oxrlgo-editor_css',
   },
-  textWrapper: { className: 'content2-text', md: 14, xs: 24 },
+  textWrapper: { className: 'content2-text', md: 8, xs: 24 },
   title: {
     className: 'content2-title khj27r6o4b-editor_css',
     children: (
@@ -382,12 +382,12 @@ export const Feature10DataSource = {
     className: 'home-page-wrapper content1-wrapper khj22se0817-editor_css',
   },
   OverPack: { className: 'home-page content1', playScale: 0.3 },
-  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
+  imgWrapper: { className: 'content1-img', md: 16, xs: 24 },
   img: {
     children: 'https://www.daoswap.global/images/advantages.jpg',
     className: 'khj26fu68eh-editor_css',
   },
-  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
+  textWrapper: { className: 'content1-text', md: 8, xs: 24 },
   title: {
     className: 'content1-title khj2gnjrr-editor_css',
     children: (
