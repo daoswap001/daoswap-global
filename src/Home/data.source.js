@@ -45,11 +45,11 @@ export const Nav20DataSource = {
   mobileMenu: { className: 'header2-mobile-menu' },
 };
 export const Banner00DataSource = {
-  wrapper: { className: 'banner0' },
-  textWrapper: { className: 'banner0-text-wrapper' },
+  wrapper: { className: 'banner0 khjw8nygn8l-editor_css' },
+  textWrapper: { className: 'banner0-text-wrapper khjwi00c1bs-editor_css' },
   title: {
-    className: 'banner0-title',
-    children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+    className: 'banner0-title khjwbsfmhj-editor_css',
+    children: 'https://www.daoswap.global/images/daoswap.png',
   },
   content: {
     className: 'banner0-content',
@@ -474,7 +474,7 @@ export const Feature40DataSource = {
     ],
   },
   img: {
-    children: 'https://zos.alipayobjects.com/rmsportal/VHGOVdYyBwuyqCx.png',
+    children: 'https://www.daoswap.global/images/doi-allocation.jpg',
     className: 'content6-img',
     xs: 24,
     md: 14,
@@ -534,6 +534,7 @@ export const Feature40DataSource = {
             </span>
           ),
         },
+        className: 'khjwevaf5k-editor_css',
       },
       {
         name: 'block2',
@@ -560,6 +561,7 @@ export const Feature40DataSource = {
             </span>
           ),
         },
+        className: 'khjwdkm4xy-editor_css',
       },
     ],
   },
