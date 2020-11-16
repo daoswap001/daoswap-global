@@ -4,7 +4,7 @@ export const Nav20DataSource = {
   wrapper: { className: 'header2 home-page-wrapper khgdlkqt24l-editor_css' },
   page: { className: 'home-page khgdhfkyth-editor_css' },
   logo: {
-    className: 'header2-logo',
+    className: 'header2-logo khjxa294kaa-editor_css',
     children: 'https://www.daoswap.global/images/logo-title.png',
   },
   LinkMenu: {
@@ -112,8 +112,7 @@ export const Content90DataSource = {
           textWrapper: { className: 'text-wrapper' },
           img: {
             className: 'block-img',
-            children:
-              'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3680245471,3520543700&fm=11&gp=0.jpg',
+            children: 'https://www.daoswap.global/images/web/1.png',
           },
           icon: {
             className: 'block-icon',
@@ -198,8 +197,7 @@ export const Content90DataSource = {
           textWrapper: { className: 'text-wrapper' },
           img: {
             className: 'block-img',
-            children:
-              'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1387143866,2420531530&fm=26&gp=0.jpg',
+            children: 'https://www.daoswap.global/images/web/2.png',
           },
           icon: {
             className: 'block-icon',
@@ -282,8 +280,7 @@ export const Content90DataSource = {
           textWrapper: { className: 'text-wrapper' },
           img: {
             className: 'block-img',
-            children:
-              'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605425437992&di=74c57299887db9f9ed3db012bd706486&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20160921%2F1b2ca92404744c7ba486508a0e1e9a8b_th.jpeg',
+            children: 'https://www.daoswap.global/images/web/3.png',
           },
           icon: {
             className: 'block-icon',
