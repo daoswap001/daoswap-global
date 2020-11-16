@@ -410,7 +410,7 @@ export const Feature10DataSource = {
 };
 export const Banner40DataSource = {
   wrapper: { className: 'home-page-wrapper banner4 khj2jgb0nvd-editor_css' },
-  page: { className: 'home-page banner4-page' },
+  page: { className: 'home-page banner4-page khk3tisqf6r-editor_css' },
   childWrapper: {
     className: 'banner4-title-wrapper',
     children: [
