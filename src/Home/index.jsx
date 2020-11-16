@@ -6,20 +6,20 @@ import { enquireScreen } from 'enquire-js';
 import Nav2 from './Nav2';
 import Banner0 from './Banner0';
 import Content9 from './Content9';
-import Content4 from './Content4';
-import Banner5 from './Banner5';
+import Feature2 from './Feature2';
+import Feature1 from './Feature1';
 import Banner4 from './Banner4';
-import Teams2 from './Teams2';
+import Feature4 from './Feature4';
 import Footer0 from './Footer0';
 
 import {
   Nav20DataSource,
   Banner00DataSource,
   Content90DataSource,
-  Content40DataSource,
-  Banner50DataSource,
+  Feature20DataSource,
+  Feature10DataSource,
   Banner40DataSource,
-  Teams20DataSource,
+  Feature40DataSource,
   Footer00DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
@@ -78,16 +78,16 @@ export default class Home extends React.Component {
         dataSource={Content90DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content4
-        id="Content4_0"
-        key="Content4_0"
-        dataSource={Content40DataSource}
+      <Feature2
+        id="Feature2_0"
+        key="Feature2_0"
+        dataSource={Feature20DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Banner5
-        id="Banner5_0"
-        key="Banner5_0"
-        dataSource={Banner50DataSource}
+      <Feature1
+        id="Feature1_0"
+        key="Feature1_0"
+        dataSource={Feature10DataSource}
         isMobile={this.state.isMobile}
       />,
       <Banner4
@@ -96,10 +96,10 @@ export default class Home extends React.Component {
         dataSource={Banner40DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Teams2
-        id="Teams2_0"
-        key="Teams2_0"
-        dataSource={Teams20DataSource}
+      <Feature4
+        id="Feature4_0"
+        key="Feature4_0"
+        dataSource={Feature40DataSource}
         isMobile={this.state.isMobile}
       />,
       <Footer0

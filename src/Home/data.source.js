@@ -18,13 +18,13 @@ export const Nav20DataSource = {
       },
       {
         name: 'linkNav~khgdhkqr3pu',
-        to: 'Content4_0',
+        to: 'Feature2_0',
         children: 'Daoswap',
         className: 'menu-item',
       },
       {
         name: 'linkNav~khgdi3ykehr',
-        to: 'Banner5_0',
+        to: 'Feature1_0',
         children: 'Advantages',
         className: 'menu-item',
       },
@@ -32,6 +32,12 @@ export const Nav20DataSource = {
         name: 'linkNav~khgdib76g4',
         to: 'Banner4_0',
         children: 'DOI',
+        className: 'menu-item',
+      },
+      {
+        name: 'linkNav~khj23qv8l68',
+        to: 'https://www.daoswap.global/whitepaper.pdf',
+        children: 'Whitepaper',
         className: 'menu-item',
       },
     ],
@@ -55,7 +61,16 @@ export const Banner00DataSource = {
       </span>
     ),
   },
-  button: { className: 'banner0-button', children: 'Learn More' },
+  button: {
+    className: 'banner0-button',
+    children: (
+      <span>
+        <p>Daoswap Whitepaper</p>
+      </span>
+    ),
+    target: '_blank',
+    href: 'https://www.daoswap.global/whitepaper.pdf',
+  },
 };
 export const Content90DataSource = {
   wrapper: {
@@ -333,85 +348,71 @@ export const Content90DataSource = {
     ],
   },
 };
-export const Content40DataSource = {
-  wrapper: { className: 'home-page-wrapper content4-wrapper' },
-  page: { className: 'home-page content4' },
-  OverPack: { playScale: 0.3, className: '' },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      {
-        name: 'title',
-        children: (
-          <span>
-            <p>DaoSwap</p>
-          </span>
-        ),
-        className: 'title-h1',
-      },
-      {
-        name: 'content',
-        className: 'title-content content4-title-content',
-        children: (
-          <span>
-            <p>
-              Decentralized exchange platform based on Ethereum, applied a
-              completely new AMM algorithm to provide unlimited Liquidity for
-              traders.
-            </p>
-          </span>
-        ),
-      },
-    ],
+export const Feature20DataSource = {
+  wrapper: {
+    className: 'home-page-wrapper content2-wrapper khj29oibjla-editor_css',
   },
-  video: {
-    className: 'content4-video',
-    children: {
-      video: 'https://os.alipayobjects.com/rmsportal/EejaUGsyExkXyXr.mp4',
-      image: 'https://zos.alipayobjects.com/rmsportal/HZgzhugQZkqUwBVeNyfz.jpg',
-    },
+  OverPack: { className: 'home-page content2', playScale: 0.3 },
+  imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
+  img: {
+    children: 'https://www.daoswap.global/images/how-daoswap-works.jpg',
+    className: 'khj27oxrlgo-editor_css',
+  },
+  textWrapper: { className: 'content2-text', md: 14, xs: 24 },
+  title: {
+    className: 'content2-title khj27r6o4b-editor_css',
+    children: (
+      <span>
+        <p>DaoSwap</p>
+      </span>
+    ),
+  },
+  content: {
+    className: 'content2-content khj27x6pfnj-editor_css',
+    children: (
+      <span>
+        <p>
+          Decentralized exchange platform based on Ethereum, applied a
+          completely new AMM algorithm to provide unlimited Liquidity for
+          traders.
+        </p>
+      </span>
+    ),
   },
 };
-export const Banner50DataSource = {
-  wrapper: { className: 'home-page-wrapper banner5' },
-  page: { className: 'home-page banner5-page' },
-  childWrapper: {
-    className: 'banner5-title-wrapper',
-    children: [
-      {
-        name: 'title',
-        children: (
-          <span>
-            <p>Advantages</p>
-          </span>
-        ),
-        className: 'banner5-title',
-      },
-      {
-        name: 'explain',
-        className: 'banner5-explain',
-        children: (
-          <span>
-            <span>
-              <p>
-                Open source code, all smart contract on chain, no server, no
-                data storage, no chance to perpetrate. Community governance, no
-                privilege.
-              </p>
-            </span>
-          </span>
-        ),
-      },
-    ],
+export const Feature10DataSource = {
+  wrapper: {
+    className: 'home-page-wrapper content1-wrapper khj22se0817-editor_css',
   },
-  image: {
-    className: 'banner5-image',
-    children:
-      'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-wAhRYnWQscAAAAAAAAAAABkARQnAQ',
+  OverPack: { className: 'home-page content1', playScale: 0.3 },
+  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
+  img: {
+    children: 'https://www.daoswap.global/images/advantages.jpg',
+    className: 'khj26fu68eh-editor_css',
+  },
+  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
+  title: {
+    className: 'content1-title khj2gnjrr-editor_css',
+    children: (
+      <span>
+        <p>Advantages</p>
+      </span>
+    ),
+  },
+  content: {
+    className: 'content1-content khj2gpjhl8-editor_css',
+    children: (
+      <span>
+        <p>
+          Open source code, all smart contract on chain, no server, no data
+          storage, no chance to perpetrate. Community governance, no privilege.
+        </p>
+      </span>
+    ),
   },
 };
 export const Banner40DataSource = {
-  wrapper: { className: 'home-page-wrapper banner4' },
+  wrapper: { className: 'home-page-wrapper banner4 khj2jgb0nvd-editor_css' },
   page: { className: 'home-page banner4-page' },
   childWrapper: {
     className: 'banner4-title-wrapper',
@@ -423,14 +424,16 @@ export const Banner40DataSource = {
             <p>DOI Model</p>
           </span>
         ),
-        className: 'banner4-title',
+        className: 'banner4-title khj2lhr7zom-editor_css',
       },
       {
         name: 'content',
-        className: 'banner4-content',
+        className: 'banner4-content khink04m8j8-editor_css',
         children: (
           <span>
-            <p>DOI Model</p>
+            <span>
+              <p>DOI Model</p>
+            </span>
           </span>
         ),
       },
@@ -438,14 +441,13 @@ export const Banner40DataSource = {
   },
   image: {
     className: 'banner4-image khinlfbgbl-editor_css',
-    children:
-      'https://gw.alipayobjects.com/mdn/rms/afts/img/A*k3InRLiZDk4AAAAAAAAAAABjARQnAQ',
+    children: 'https://www.daoswap.global/images/doi-model.jpg',
   },
 };
-export const Teams20DataSource = {
-  wrapper: { className: 'home-page-wrapper teams2-wrapper' },
-  page: { className: 'home-page teams2' },
-  OverPack: { playScale: 0.3, className: '' },
+export const Feature40DataSource = {
+  wrapper: { className: 'home-page-wrapper content6-wrapper' },
+  OverPack: { className: 'home-page content6' },
+  textWrapper: { className: 'content6-text', xs: 24, md: 10 },
   titleWrapper: {
     className: 'title-wrapper',
     children: [
@@ -453,286 +455,110 @@ export const Teams20DataSource = {
         name: 'title',
         children: (
           <span>
-            <p>Contributor</p>
+            <p>DOI Allocation</p>
+          </span>
+        ),
+        className: 'title-h1 khjvdpf6kvh-editor_css',
+      },
+      {
+        name: 'content',
+        className: 'title-content khjvdwek56o-editor_css',
+        children: (
+          <span>
+            <span>
+              <p>100,000,000 in total</p>
+            </span>
           </span>
         ),
       },
     ],
   },
+  img: {
+    children: 'https://zos.alipayobjects.com/rmsportal/VHGOVdYyBwuyqCx.png',
+    className: 'content6-img',
+    xs: 24,
+    md: 14,
+  },
   block: {
-    className: 'block-wrapper',
-    gutter: 72,
     children: [
       {
         name: 'block0',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
+        img: {
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+          className: 'content6-icon khjvepszfrb-editor_css',
         },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <span>
-                    <p>DanDan Noodles</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <span>
-                    <p>Community contributors</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: (
-                <span>
-                  <p>Community contributors</p>
-                </span>
-              ),
-            },
-          ],
+        title: {
+          className: 'content6-title khjveniqu68-editor_css',
+          children: (
+            <span>
+              <span>
+                <p>Community</p>
+              </span>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content khjve5m73y-editor_css',
+          children: (
+            <span>
+              <p>60% to Daoswap community members</p>
+            </span>
+          ),
         },
       },
       {
         name: 'block1',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
+        img: {
+          className: 'content6-icon khjvgrsiaqn-editor_css',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+            'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
         },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <p>DanDan Noodles</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <p>Community contributors</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: (
-                <span>
-                  <p>Community contributors</p>
-                </span>
-              ),
-            },
-          ],
+        title: {
+          className: 'content6-title khjvfir6ye-editor_css',
+          children: (
+            <span>
+              <p>
+                T<span>reasury</span>
+              </p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'content6-content khjvfggfj5-editor_css',
+          children: (
+            <span>
+              <span>
+                <p>11.12% to community treasury</p>
+              </span>
+            </span>
+          ),
         },
       },
       {
         name: 'block2',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
+        img: {
+          className: 'content6-icon khjvgtfz7o8-editor_css',
           children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
         },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>DanDan Noodles</p>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <p>Community contributors</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: (
-                <span>
-                  <p>Community contributors</p>
-                </span>
-              ),
-            },
-          ],
+        title: {
+          className: 'content6-title khjvhfwahyf-editor_css',
+          children: (
+            <span>
+              <span>
+                <p>Team</p>
+              </span>
+            </span>
+          ),
         },
-      },
-      {
-        name: 'block3',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <p>DanDan Noodles</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <p>Community contributors</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: (
-                <span>
-                  <p>Community contributors</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block4',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <p>DanDan Noodles</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <p>Community contributors</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: (
-                <span>
-                  <p>Community contributors</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block5',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        image: {
-          name: 'image',
-          className: 'teams2-image',
-          children:
-            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
-        },
-        titleWrapper: {
-          className: 'teams2-textWrapper',
-          children: [
-            {
-              name: 'title',
-              className: 'teams2-title',
-              children: (
-                <span>
-                  <p>DanDan Noodles</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'teams2-job',
-              children: (
-                <span>
-                  <p>Community contributors</p>
-                </span>
-              ),
-            },
-            {
-              name: 'content1',
-              className: 'teams2-content',
-              children: (
-                <span>
-                  <p>Community contributors</p>
-                </span>
-              ),
-            },
-          ],
+        content: {
+          className: 'content6-content khjvftl3ldt-editor_css',
+          children: (
+            <span>
+              <p>28.88% to team and linear release 7.5% every 3 month</p>
+            </span>
+          ),
         },
       },
     ],
