@@ -5,7 +5,7 @@ export const Nav20DataSource = {
   page: { className: 'home-page khgdhfkyth-editor_css' },
   logo: {
     className: 'header2-logo',
-    children: 'https://os.alipayobjects.com/rmsportal/mlcYmsRilwraoAe.svg',
+    children: 'https://www.daoswap.global/images/logo-title.jpg',
   },
   LinkMenu: {
     className: 'header2-menu',
@@ -445,8 +445,10 @@ export const Banner40DataSource = {
   },
 };
 export const Feature40DataSource = {
-  wrapper: { className: 'home-page-wrapper content6-wrapper' },
-  OverPack: { className: 'home-page content6' },
+  wrapper: {
+    className: 'home-page-wrapper content6-wrapper khjvcyx88j-editor_css',
+  },
+  OverPack: { className: 'home-page content6 khjvd3uywd-editor_css' },
   textWrapper: { className: 'content6-text', xs: 24, md: 10 },
   titleWrapper: {
     className: 'title-wrapper',
@@ -506,6 +508,7 @@ export const Feature40DataSource = {
             </span>
           ),
         },
+        className: 'khjx2tat0yt-editor_css',
       },
       {
         name: 'block1',
@@ -570,7 +573,7 @@ export const Footer00DataSource = {
   wrapper: { className: 'home-page-wrapper footer0-wrapper' },
   OverPack: { className: 'home-page footer0', playScale: 0.05 },
   copyright: {
-    className: 'copyright',
+    className: 'copyright khjx8mkgs6e-editor_css',
     children: (
       <span>
         <span>©2020 Daoswap Golbal All Rights Reserved</span>
