@@ -566,31 +566,73 @@ export const Feature40DataSource = {
     ],
   },
 };
-export const Footer00DataSource = {
+export const Footer20DataSource = {
   wrapper: {
-    className: 'home-page-wrapper footer0-wrapper khk3uxjsuzc-editor_css',
+    className: 'home-page-wrapper footer2-wrapper khlr270px4j-editor_css',
   },
-  OverPack: { className: 'home-page footer0', playScale: 0.05 },
+  OverPack: {
+    className: 'home-page footer2 khlq9g428xs-editor_css',
+    playScale: 0.05,
+    appear: true,
+    replay: false,
+  },
   copyright: {
-    className: 'copyright khjx8mkgs6e-editor_css',
-    children: (
-      <span>
-        <span>
-          <div>
-            <span>Daoswap Golbal Community</span>
-            <br />
-          </div>
-          <p>
-            Follow{' '}
-            <a href="https://www.daoswap.global/LICENSE" target="_blank">
-              MIT
-            </a>{' '}
-            Protocol<span>
-              <br />
-            </span>
-          </p>
-        </span>
-      </span>
-    ),
+    className: 'copyright',
+    children: [
+      {
+        name: 'image',
+        children: 'https://www.daoswap.global/favicon.ico',
+        className: 'copyright-logo',
+      },
+      {
+        name: 'group',
+        children: (
+          <span>
+            <p>Daoswap Golbal Community</p>
+          </span>
+        ),
+        className: 'copyright-group khlq9kfa4bo-editor_css',
+      },
+      {
+        name: 'image2',
+        children:
+          'https://gw.alipayobjects.com/zos/rmsportal/fgGmQUfiUfSBfvsQpfOj.svg',
+        className: 'copyright-line',
+      },
+      {
+        name: 'copyright',
+        children: (
+          <span>
+            <p>
+              Follow{' '}
+              <a href="http://www.daoswap.global/LICENSE" target="_blank">
+                MIT
+              </a>{' '}
+              Protocol
+            </p>
+          </span>
+        ),
+        className: 'copyright-text khlqaes2vw-editor_css',
+      },
+    ],
+  },
+  links: {
+    className: 'links khlr3hcfpfo-editor_css',
+    children: [
+      {
+        name: 'weibo',
+        href: 'https://twitter.com/SwapDao?s=09',
+        className: 'links-weibo',
+        children: 'https://www.daoswap.global/images/twitter-logo.png',
+        target: '_blank',
+      },
+      {
+        name: 'zhihu',
+        href: 'https://t.me/joinchat/Voj5wxssRKVcGmVzdi8SmA',
+        className: 'links-zhihu',
+        children: 'https://www.daoswap.global/images/telegram-logo.png',
+        target: '_blank',
+      },
+    ],
   },
 };
