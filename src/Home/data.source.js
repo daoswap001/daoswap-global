@@ -620,17 +620,24 @@ export const Footer20DataSource = {
     className: 'links khlr3hcfpfo-editor_css',
     children: [
       {
-        name: 'weibo',
+        name: 'twitter',
         href: 'https://twitter.com/SwapDao?s=09',
-        className: 'links-weibo',
+        className: 'links-twitter',
         children: 'https://www.daoswap.global/images/twitter_logo.png',
         target: '_blank',
       },
       {
-        name: 'zhihu',
+        name: 'telegram',
         href: 'https://t.me/joinchat/Voj5wxssRKVcGmVzdi8SmA',
-        className: 'links-zhihu',
+        className: 'links-telegram',
         children: 'https://www.daoswap.global/images/telegram_logo.png',
+        target: '_blank',
+      },
+      {
+        name: 'mail',
+        href: 'mailto:contact@daoswap.global',
+        className: 'links-mail',
+        children: 'https://www.daoswap.global/images/mail_logo.png',
         target: '_blank',
       },
     ],
