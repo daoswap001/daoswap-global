@@ -20,6 +20,7 @@ import {
   Feature10DataSource,
   Banner40DataSource,
   Feature40DataSource,
+  Banner41DataSource,
   Footer20DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
@@ -100,6 +101,12 @@ export default class Home extends React.Component {
         id="Feature4_0"
         key="Feature4_0"
         dataSource={Feature40DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Banner4
+        id="Banner4_1"
+        key="Banner4_1"
+        dataSource={Banner41DataSource}
         isMobile={this.state.isMobile}
       />,
       <Footer2

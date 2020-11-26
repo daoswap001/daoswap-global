@@ -423,17 +423,6 @@ export const Banner40DataSource = {
         ),
         className: 'banner4-title khj2lhr7zom-editor_css',
       },
-      {
-        name: 'content',
-        className: 'banner4-content khink04m8j8-editor_css',
-        children: (
-          <span>
-            <span>
-              <p>DOI Model</p>
-            </span>
-          </span>
-        ),
-      },
     ],
   },
   image: {
@@ -564,6 +553,28 @@ export const Feature40DataSource = {
         className: 'khjwdkm4xy-editor_css',
       },
     ],
+  },
+};
+export const Banner41DataSource = {
+  wrapper: { className: 'home-page-wrapper banner4' },
+  page: { className: 'home-page banner4-page khyu39vu6a-editor_css' },
+  childWrapper: {
+    className: 'banner4-title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+            <p>China Region Genesis Private Sale</p>
+          </span>
+        ),
+        className: 'banner4-title khyu265i9b-editor_css',
+      },
+    ],
+  },
+  image: {
+    className: 'banner4-image khyu2m84k4l-editor_css',
+    children: 'https://www.daoswap.global/images/private-sale.jpg',
   },
 };
 export const Footer20DataSource = {
