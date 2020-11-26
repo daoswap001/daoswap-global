@@ -556,7 +556,7 @@ export const Feature40DataSource = {
   },
 };
 export const Banner41DataSource = {
-  wrapper: { className: 'home-page-wrapper banner4' },
+  wrapper: { className: 'home-page-wrapper banner4 khyue9sger-editor_css' },
   page: { className: 'home-page banner4-page khyu39vu6a-editor_css' },
   childWrapper: {
     className: 'banner4-title-wrapper',
@@ -565,7 +565,11 @@ export const Banner41DataSource = {
         name: 'title',
         children: (
           <span>
-            <p>China Region Genesis Private Sale</p>
+            <span>
+              <p>
+                <br />
+              </p>
+            </span>
           </span>
         ),
         className: 'banner4-title khyu265i9b-editor_css',
