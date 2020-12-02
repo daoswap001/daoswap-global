@@ -42,7 +42,7 @@ export const Nav20DataSource = {
       },
       {
         name: 'linkNav~ki710ba1bfn',
-        to: 'Footer0_0',
+        to: 'https://twitter.com/SwapDao/status/1334023646814191618?s=19',
         children: 'Announcement',
         className: 'menu-item',
       },
@@ -585,20 +585,6 @@ export const Banner41DataSource = {
   image: {
     className: 'banner4-image khyu2m84k4l-editor_css',
     children: 'https://www.daoswap.global/images/private-sale.jpg',
-  },
-};
-export const Footer00DataSource = {
-  wrapper: { className: 'home-page-wrapper footer0-wrapper' },
-  OverPack: { className: 'home-page footer0', playScale: 0.05 },
-  copyright: {
-    className: 'copyright',
-    children: (
-      <span>
-        #imToken #6534 We are providing DOI token’s information on imToken.
-        After completion, you can see the logo and full information inside
-        imToken’s Token Manager.<br />
-      </span>
-    ),
   },
 };
 export const Footer20DataSource = {
