@@ -5,16 +5,17 @@ import { enquireScreen } from 'enquire-js';
 
 import Nav2 from './Nav2';
 import Banner0 from './Banner0';
+import Banner4 from './Banner4';
 import Content9 from './Content9';
 import Feature2 from './Feature2';
 import Feature1 from './Feature1';
-import Banner4 from './Banner4';
 import Feature4 from './Feature4';
 import Footer2 from './Footer2';
 
 import {
   Nav20DataSource,
   Banner00DataSource,
+  Banner42DataSource,
   Content90DataSource,
   Feature20DataSource,
   Feature10DataSource,
@@ -71,6 +72,12 @@ export default class Home extends React.Component {
         id="Banner0_0"
         key="Banner0_0"
         dataSource={Banner00DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Banner4
+        id="Banner4_2"
+        key="Banner4_2"
+        dataSource={Banner42DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content9

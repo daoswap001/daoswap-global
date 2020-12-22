@@ -78,6 +78,30 @@ export const Banner00DataSource = {
     href: 'https://www.daoswap.global/whitepaper.pdf',
   },
 };
+export const Banner42DataSource = {
+  wrapper: { className: 'home-page-wrapper banner4 kizgvq3wxeo-editor_css' },
+  page: { className: 'home-page banner4-page' },
+  childWrapper: {
+    className: 'banner4-title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+            <p>
+              <br />
+            </p>
+          </span>
+        ),
+        className: 'banner4-title kizgvb90z69-editor_css',
+      },
+    ],
+  },
+  image: {
+    className: 'banner4-image kizgvvait9b-editor_css',
+    children: 'https://www.daoswap.global/images/liquidity-mining.png',
+  },
+};
 export const Content90DataSource = {
   wrapper: {
     className: 'home-page-wrapper content9-wrapper khim3kn3cpj-editor_css',
